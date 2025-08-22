@@ -18,6 +18,7 @@ Este proyecto es una **Single Page Application (SPA)** de reseñas de libros, co
 
 ### Tecnologías Utilizadas
 
+- **Node 20**
 - **Nuxt 3**: Framework de Vue 3, optimizado para la creación de aplicaciones de lado del cliente (SPA).
 - **Vue 3**: Para la construcción de la interfaz de usuario.
 - **Pinia**: Para la gestión de estado centralizada.
