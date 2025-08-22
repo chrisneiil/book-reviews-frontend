@@ -426,6 +426,7 @@ $shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
   width: 90%;
+
   max-width: 500px;
   text-align: center;
   display: flex;

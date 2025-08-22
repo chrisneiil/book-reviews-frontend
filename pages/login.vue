@@ -40,8 +40,9 @@ async function handleLogin() {
     </div>
   </div>
 </template>
-
 <style lang="scss" scoped>
+@use "sass:color";
+
 $primary-color: #2c3e50;
 $secondary-color: #3498db;
 $success-color: #27ae60;
@@ -111,7 +112,8 @@ $background-color: #f4f7f9;
     transition: background-color 0.3s ease;
 
     &:hover {
-      background-color: darken($secondary-color, 10%);
+      // Corrección aquí: Usar color.adjust para evitar la advertencia de deprecación
+      background-color: color.adjust($secondary-color, $lightness: -10%);
     }
   }
 

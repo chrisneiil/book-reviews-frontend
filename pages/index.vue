@@ -212,7 +212,6 @@ $shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 .book-card {
   display: flex;
   flex-direction: column;
-  height: 400px;
   width: 225px;
   text-decoration: none;
   background-color: white;
