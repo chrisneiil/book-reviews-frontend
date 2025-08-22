@@ -5,5 +5,5 @@ export default defineNuxtConfig({
   devServer: {
     port: 3001
   },
-  modules: ['@nuxt/image', '@nuxt/icon']
+  modules: ['@nuxt/image', '@nuxt/icon','@pinia/nuxt']
 })
